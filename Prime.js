@@ -1,11 +1,11 @@
 let a = 3,count = 0;
 for(let i=1;i<=a;i++){
   if(a%i==0){
-    count++;
+    ++count;
   }
 }
 
-if(count == 1){
+if(count === 2){
   console.log("prime");
 }
 else{
